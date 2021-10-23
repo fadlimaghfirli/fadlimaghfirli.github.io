@@ -71,6 +71,10 @@ nav :active {
   align-items: center;
 }
 
+.home .gambar img {
+  width: 100%;
+}
+
 .home h1 {
   font-size: 2.5em;
 }
@@ -285,4 +289,89 @@ footer i:hover {
   color: red;
 }
 /* AKHIR FOOTER */
-/* SELESAIIIIIIIIIIII */
+
+/* RESPONSIVE BREAKPOINT */
+/* Ukuran Mobile */
+@media (max-width: 500px) {
+  /* NAVBAR */
+  nav {
+    padding: 15px;
+    font-size: 0.8em;
+    justify-content: space-around;
+  }
+  nav .navigasi {
+    width: 40%;
+    font-size: 0.75em;
+    justify-content: space-between;
+  }
+  /* AKHIR NAVBAR */
+
+  /* SECTION HOME */
+  .home {
+    font-size: 0.95em;
+    width: 100%;
+    height: auto;
+    flex-direction: column-reverse;
+    padding-top: 90px;
+    margin-bottom: 50px;
+  }
+  .home .welcome {
+    margin-left: -70px;
+  }
+  .home .gambar {
+    margin-bottom: 40px;
+    justify-content: center;
+  }
+  /* AKHIR SECTION HOME */
+
+  /* SECTION ABOUT */
+  .about {
+    font-size: 0.8em;
+    flex-direction: column;
+    width: 100%;
+    padding-top: 50px;
+    margin-top: ;
+    margin-bottom: 250px;
+  }
+  .about img {
+    width: 80%;
+    margin-bottom: 20px;
+  }
+  .about .content {
+    width: 100%;
+    margin: 0;
+  }
+  /* AKHIR SECTION ABOUT */
+
+  /* SECTION PROJECTS */
+  .project {
+    font-size: 0.8em;
+    padding: 80px 0px 20px 0px;
+  }
+  .project h2 {
+    margin-bottom: 15px;
+  }
+  .project .content .card {
+    /* margin: 0; */
+    width: 70%;
+  }
+  /* AKHIR SECTIO PROJECTS */
+
+  /* SECTON CONTACT */
+  .contact {
+    font-size: 0.8em;
+    margin: auto;
+    width: 100%;
+  }
+  .contact .content {
+    width: 90%;
+    margin: auto;
+  }
+  /* AKHIR SECTION CONTACT */
+
+  /* FOOTER */
+  footer {
+    font-size: 0.7em;
+  }
+  /* AKHIR FOOTER */
+}

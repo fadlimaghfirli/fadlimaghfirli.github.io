@@ -51,7 +51,7 @@
 		<!-- SECTION 2 ABOUT -->
 		<section class="about" id="about" >
 			<img src="img/me.gif" data-aos="zoom-in" data-aos-duration="1000" data-aos-offset="250">
-			<div class="content" data-aos="fade-left" data-aos-duration="1500" data-aos-offset="250" data-aos-once="true" >
+			<div class="content" data-aos="fade-up" data-aos-duration="1500" data-aos-offset="250" data-aos-once="true" >
 				<h2>About Me</h2>
 				<br><br>
 				<p>Hello World. Introducing my name is FADLI MAGHFIRLI, a vocational student majoring in RPL whose hobby is coding. I am currently 16 years old
@@ -113,7 +113,7 @@
 		<!-- SECTION 4 CONTACT -->
 		<section class="contact" id="contact" >
 			<h2>Contact Me</h2>
-			<div class="content" data-aos="fade-up" data-aos-duration="1000" data-aos-offset="250">
+			<div class="content" data-aos="fade-up" data-aos-duration="800" data-aos-offset="230">
 				<form action="/action_page.php">
 				  <label for="fname">Your Name</label>
 				  <input type="text" id="fname" name="firstname" placeholder="Enter your name ...">
@@ -154,9 +154,9 @@
 
 		// HOME
 		gsap.from('.home .welcome p', {duration: 2.5, opacity: 0, x: -150, ease: 'back'})
-		gsap.to('.home .welcome .keterangan', {text: 'Software Engineering Students<br>Front-end Developer', duration: 2, delay: 2})
+		gsap.to('.home .welcome .keterangan', {text: 'Software Engineering Students<br>Front-end Developer', duration: 2, delay: 1.5})
 		gsap.from('.home .welcome .brand', {duration: 2.5, opacity: 0, delay: 0.5, x: 150, ease: 'back'})
-		gsap.from('.home .welcome .social', {duration: 0.5, opacity: 0, delay: 4, y: 50, })
+		gsap.from('.home .welcome .social', {duration: 0.5, opacity: 0, delay: 3, y: 50, })
 		gsap.from('.home .gambar', {duration: 1, opacity: 0, delay: 0.8, y: 50})
 		// AKHIR HOME
 	</script>
