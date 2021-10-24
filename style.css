@@ -292,7 +292,7 @@ footer i:hover {
 
 /* RESPONSIVE BREAKPOINT */
 /* Ukuran Mobile */
-@media (max-width: 500px) {
+@media (max-width: 576px) {
   /* NAVBAR */
   nav {
     padding: 15px;
